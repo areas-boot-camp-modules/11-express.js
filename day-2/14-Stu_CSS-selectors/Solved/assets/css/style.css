@@ -1,13 +1,14 @@
-/* TODO: Label selector type */
+/* universal selector */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
-/* TODO: Label selector type */
+/* element selector */
 body {
   background-color: lemonchiffon;
 }
 
+/* element selectors */
 header,
 footer {
   width: 100%;
@@ -17,17 +18,18 @@ footer {
   background-color: #191970;
 }
 
+/* element selector */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* class selector */
 .highlighted-text {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* id selector */
 #contact-section {
   background-color: #f0ead6;
 }

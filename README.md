@@ -1,4 +1,4 @@
-# areas-boot-camp/files
+# areas-boot-camp/classes
 
-This is a place to store files for class.
+This is a place to store stuff for classes.
 

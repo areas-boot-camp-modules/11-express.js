@@ -14,15 +14,15 @@ ul {
 
 /* list items in navigation bar */
 li {
-  display: inline;
+  display: inline; /* list navigation inline */
   font-size: 40px;
   list-style-type: none;
 }
 
 /* boxes */
 img {
-  display: block;
-  margin: 0 auto;
+  display: block; /* stack boxes */
+  margin: 0 auto; /* center boxes */
 }
 
 #item-1 {

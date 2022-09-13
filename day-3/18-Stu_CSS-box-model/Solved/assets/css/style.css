@@ -9,7 +9,7 @@ img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
-  margin: 20px;
-  padding: 15px;
-  border: 10px solid darkblue;
+  padding: 15px; /* added padding */
+  border: 10px solid darkblue; /* added a border */
+  margin: 20px; /* added margin */
   }

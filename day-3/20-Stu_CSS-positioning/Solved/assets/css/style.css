@@ -44,12 +44,12 @@ header {
 /* box 2 in square 1 */
 #relative-box-2 {
   position: relative;
-  left: 200px;
+  left: 200px; /* positioned to the right */
 }
 
 /* box 2 in square 2 */
 #absolute-box-2 {
   position: absolute;
-  top: 0;
-  left: 700px;
+  top: 0; /* poistioned to the top */
+  left: 700px; /* positioned to the right */
 }

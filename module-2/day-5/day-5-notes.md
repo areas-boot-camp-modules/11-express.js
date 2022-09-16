@@ -27,3 +27,6 @@
 - There are other pseudoclasses, but these two are the most important.
 ---
 - There are pseudoclasses for forms too.
+- Remember that + and > add specificity (should re-review). Are there others like this?
+- + refers to a sibling (shares a parent).
+- > refers to a child.

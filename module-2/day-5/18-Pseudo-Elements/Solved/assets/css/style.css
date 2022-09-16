@@ -59,9 +59,25 @@ article p {
   font-size: 110%;
 }
 
-/* TODO: Style the term/phrase - underline, black text, grab cursor */
+span[data-desc] {
+  position: relative;
+  text-decoration: underline; /* underline text */
+  color: black; /* color text black */
+  cursor: grab; /* use the grab cursor */
+}
 
-/* TODO: Position tooltip above the term/phrase, same color as header and nav links, no border-radius, smaller font size */
+span[data-desc]:hover::after {
+  content: attr(data-desc);
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  min-width: 200px;
+  border: black solid 1px;
+  color: #b9c6ae;
+  background-color: #13293d;
+  padding: 15px;
+  font-size: 75%;
+}
 
 aside {
   width: 25%;

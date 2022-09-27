@@ -10,15 +10,24 @@ function isEqual(x, y) {
   return;
 }
 
-// Logs "They are equal in type and value"
+// equal
 isEqual(10, 10);
 
-// Refer to sample functions as needed!
+// equal-ish
+isEqual("10", 10);
 
-// TODO: Call the isEqual function so that it logs "They are equal in value"
+// anonymous function
+let isEqualTakeTwo = function(x, y) {
+  if (x === y) {
+    console.log('They are equal in type and value');
+  } else if (x == y) {
+    console.log('They are equal in value');
+  } else {
+    console.log('They are not equal');
+  }
+  return;
+}
 
-// TODO: Rewrite isEqual as a function expression called 'isEqualTakeTwo`
-
-// TODO: Call the isEqualTakeTwo function so that it logs "They are not equal"
-
+// not equal
+isEqualTakeTwo(1,2);
 

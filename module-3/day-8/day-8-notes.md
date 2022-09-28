@@ -33,4 +33,6 @@
 - You can sort an array (.sort).
 - You can add something new with .push("thing to add").
 - You can slice with .slice(0,2). It creates a new array, starting with 0-index and ending with 2-index.
-- There’s also .replace.
+- Should also learn about .splice.
+- There’s also .replace (for strings).
+- 

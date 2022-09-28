@@ -1,6 +1,6 @@
-var wins = 0;
-var ties = 0;
-var losses = 0;
+let wins = 0;
+let ties = 0;
+let losses = 0;
 
 // Array of options for computer to pick from
 var options = ["R", "P", "S"];
@@ -8,7 +8,6 @@ var options = ["R", "P", "S"];
 var playGame = function() {
   // Ask user for their choice
   var userChoice = window.prompt("Enter R, P, or S:");
-
   // If user pressed Cancel, immediately end function
   if (!userChoice) {
     return;

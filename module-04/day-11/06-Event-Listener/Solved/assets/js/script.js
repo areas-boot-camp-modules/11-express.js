@@ -1,12 +1,24 @@
-var count = 0;
-var incrementEl = document.querySelector("#increment");
-var decrementEl = document.querySelector("#decrement");
-var countEl = document.querySelector("#count");
+// declare variables
+let count = 0;
+let increment = document.querySelector("#increment");
+let decrement = document.querySelector("#decrement");
+let displayCount = document.querySelector("#count");
 
+// change displayed count
 function setCounterText() {
-  countEl.textContent = count;
+  displayCount.textContent = count;
 }
 
-// TODO: Add event listener to increment button
+// increment count
+increment.addEventListener("click", function() {
+  count++;
+  setCounterText();
+});
 
-// TODO: Add event listener to decrement button 
+// decrement count (if > 0)
+decrement.addEventListener("click", function() {
+  if (count > 0) {
+    count--;
+    setCounterText();
+  };
+});

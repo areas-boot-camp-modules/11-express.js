@@ -19,7 +19,6 @@
 - What is `dataset`? When you use `data-` attributes, you can access with `dataset`.
 - There might be better ways to store data?
 
-
 ---
 
 [« Day 10](../../module-04/day-10/day-10-notes.md) | [All Notes](../../README.md#class-notes) | [Day 12 »](../../module-04/day-12/day-12-notes.md)

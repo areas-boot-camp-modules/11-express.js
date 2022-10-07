@@ -1,0 +1,24 @@
+Day 14: 
+- Bootstrap!
+- There’s a version 5 I should check out.
+- It’s a way to use CSS without using as much JS.
+- With Bootstrap, you don’t write CSS, you just add classes.
+- Wait, does Bootstrap override with `!important`?
+- It’s important to remember it’s a third-party API you import.
+- Does Bootstrap provide flexbox support?
+- Can you use your JavaScript to add Bootstrap classes? Is that recommended for JS developers?
+- Does Bootstrap come with a reset.css stylesheet?
+- Competitors could be Tailwind. Also Material UI.
+- Would be good to look through their docs (and focus on 5).
+- Bootstrap divides thing into 12 columns. If you say 12, it’s 100%. It kind of works like flex (but they came before, and so maybe it’s less necessary?).
+- Bootstrap uses media queries.
+- The changes for screen size are powered by “breakpoints”.
+- You can use your own CSS in your own file to add your own flavor.
+- Remember that Bootstrap take priority (because of `!important`).
+- Reminder: `:root` is how you create variables in CSS.
+---
+- Google Fonts!
+- `<link>` may be better, but `@import`? Looks like `<link>` is better supported.
+- You can use for your site, but also download and install. I wonder if they’re available through brew?
+- Looks like you could also download and include them with your app.
+	- You can also use `@font-face` with `font-family` and `src` attributes. This is maybe better from a security point of view (so Google isn’t listening).

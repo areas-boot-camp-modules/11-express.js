@@ -10,4 +10,3 @@
 - Why use jQuery when you can use DOM elements? You probably shouldn’t for new projects (DOM is faster). But it’s useful to know.
 ---
 - What is jass.css?
-- 

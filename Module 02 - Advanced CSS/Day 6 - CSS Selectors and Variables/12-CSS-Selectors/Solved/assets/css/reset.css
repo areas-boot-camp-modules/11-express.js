@@ -39,3 +39,7 @@ ol,
 ul {
   list-style: none;
 }
+
+a:any-link { /* what is this, and why can't I override it? */
+  text-decoration-line: none;
+}

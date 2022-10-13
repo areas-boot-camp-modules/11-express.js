@@ -1,0 +1,38 @@
+# Day 8
+- Arrays!
+- You can store multiple values in an array, such `let students = ["Christian"]`.
+- In Python, an array is called a list.
+- Arrays are zero-indexed.
+- You can replace a value in an array (`student[2] = "<new-name>";`).
+- What is strict mode?
+- An array is an object.
+---
+- For-loops!
+- People usually use i, but you don't have to.
+- Instead of a number for i, you can use an array’s length.
+---
+- Functions!
+- You can use anonymous functions to control scope.
+- There are function declarations and function expressions.
+- You can use `return;` to escape a function early.
+- What’s a funtion closure?
+- Anonymous functions are considered "throw away" functions. We’ll learn more later!
+---
+- Scope!
+- You can return something to make it available.
+- You can also return a function that uses a variable and make that available outside.
+- What’s shadowing?
+- You can redefine something inside a function, and that will only change the value within the function. It will stay the same value outside.
+- You call a function.
+- You return something to make it available outide the function.
+- Good practice to avoid shadows (can be confusing an cause problems).
+- Parenthesis tell the browser that it’s a function.
+---
+- Methods!
+- You can use `console.trace` to do a stack trace (to track something down).
+- You can sort an array (.sort).
+- You can add something new with .push("thing to add").
+- You can slice with .slice(0,2). It creates a new array, starting with 0-index and ending with 2-index.
+- Should also learn about .splice.
+- There’s also .replace (for strings).
+- 

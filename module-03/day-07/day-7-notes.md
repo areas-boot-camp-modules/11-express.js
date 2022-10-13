@@ -1,0 +1,34 @@
+# Day 7: Introduction to JavaScript
+- HTML and CSS isn’t enough. That’s where JavaScript comes in.
+- JavaScript is flexible, but that means it’s complicated to learn.
+- Code now gets minified, which probably gets rid of the structure and removes whitespace.
+- The “minify” process is also called “uglify” (at least it was in the near past).
+- You can link to external JavaScript files, e.g. <script src=""></script>.
+- console.log() is a basic print/output function that outputs to the console.
+- console.log() is useful for debugging.
+- If you want to debug JavaScript, go to the console in the browser.
+- It’s better to put the scripts in an external file, and at the end of the HTML body element.
+- It’s good practice to add type="text/javascript" to the script element.
+- console.log() is a function. Anything in the parenthesis are the parameters.
+- Function: name(argument).
+- Functions are things that do jobs for us.
+- You invoke a function.
+- Do you call a function?
+- When you declare a variable, you start with var. When you overwrite it, you don’t have to use var.
+- What is let? let is scoped to a code block, var is global. Folks use let now more often, as it’s less error prone.
+- A primitive is a basic data type.
+- undefined, string, numbers (intergers and decimals / floating point numbers), and boolean.
+- typeof lets us find out the type of primitive. For example, console.log(typeof "Hello!”);.
+- Variables are type-independent, as in can change the type when you reassign a value.
+- % is modulus (the remainder of something after you divide).
+- There’s also BigInt and Symbol (primitives).
+- Standard operators: +, -, /, *.
+- Modulus: % (divide and tell me the remainder).
+- There’s a lot of modulus in cryptography.
+- Comparison operators: == (truthy), === (strictly true)…, != (not truthy), and !== (strictly not true). Also, <, >, <=, >=.
+- Logical operators: && (and) and || (or). && is “truthy.”
+- It looks like you don’t use a single = for operators.
+- You can use modulus to output a message once every 500 times the command runs (instead of every time or only at the end).
+- How do you create a breakpoint?
+- With a conditional (if), if the argument is true, run the command.
+- You can say if (variable === true) or just if (variable) (it’s shorthand). 

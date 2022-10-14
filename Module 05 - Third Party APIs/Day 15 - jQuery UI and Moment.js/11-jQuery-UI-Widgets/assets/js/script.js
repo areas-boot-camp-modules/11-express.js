@@ -30,7 +30,16 @@ var handleFormSubmit = function (event) {
 formEl.on('submit', handleFormSubmit);
 
 // Add Autocomplete widget here
-//
+let skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Git"
+]
+
+$("#skill-name").autocomplete({
+  source: skills
+})
 
 // Add Datepicker widget here
-//
+$("#datepicker").datepicker()

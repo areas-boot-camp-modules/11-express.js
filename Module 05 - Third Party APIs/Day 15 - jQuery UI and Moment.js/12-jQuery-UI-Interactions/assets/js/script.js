@@ -65,4 +65,6 @@ $(function () {
 });
 
 // Add interaction here
-//
+$("#skills-list").sortable({
+  placeholder: "ui-state-highlight"
+})

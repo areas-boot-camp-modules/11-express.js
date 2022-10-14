@@ -12,7 +12,7 @@ Work with a partner to implement the following user story:
 
 The following image demonstrates the web application's appearance and functionality:
 
-![The web page shows a user's GitHub repositories when the button is selected.](./Images/01-solution-screenshot.png)
+![The web page shows a user's GitHub repositories when the button is selected.](./assets/images/01-solution-screenshot.png)
 
 ---
 

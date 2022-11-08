@@ -1,0 +1,1 @@
+{"name":"Christian","languages":["JavaScript","Bash"],"communication":"Discord"}

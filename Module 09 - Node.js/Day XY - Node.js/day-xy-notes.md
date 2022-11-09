@@ -17,4 +17,3 @@
 ---
 - npx runs something instead of just downloads it.
 - npm install things based off package.json.
----

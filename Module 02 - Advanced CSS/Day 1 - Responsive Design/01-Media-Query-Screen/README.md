@@ -18,11 +18,11 @@ Work with a partner to implement the following user story:
 
 The following image demonstrates the web application's appearance at 992px or smaller:
 
-![On an online store's webpage, four cards are split into two rows and two columns.](./Images/01-product-columns.png)
+![On an online store's webpage, four cards are split into two rows and two columns.](./01-product-columns.png)
 
 The following image demonstrates the web application's appearance at 768px or smaller:
 
-![On an online store's webpage, two cards are stacked on top of each other.](./Images/02-products-stacked.png)
+![On an online store's webpage, two cards are stacked on top of each other.](./02-products-stacked.png)
 
 ---
 

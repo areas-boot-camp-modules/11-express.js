@@ -1,6 +1,6 @@
 # 📐 Add Comments to Implementation of MySQL in Node.js Environment
 
-Work with a partner to add comments describing the functionality of the code found in [server.js](./Unsolved/server.js).
+Work with a partner to add comments describing the functionality of the code found in [server.js](./server.js).
 
 ## 📝 Notes
 

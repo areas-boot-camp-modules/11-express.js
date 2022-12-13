@@ -21,7 +21,25 @@ router.get('/:id', async (req, res) => {
     const readerData = await Reader.findByPk(req.params.id, {
       include: [{ model: LibraryCard }, { model: Book }],
       // TODO: Add a sequelize literal to get a count of short books
-    });
+      attributes: {
+        include: [
+          [
+            sequelize.literal(
+              // This SQL is missing something...
+              `(
+                SELECT
+                  COUNT(b.id)
+                FROM
+                  book b
+                WHERE
+                  b.pages BETWEEN 100 AND 300
+              )`,
+            ),
+            "shortBooks",
+          ],
+        ],
+      },
+    })
 
     if (!readerData) {
       res.status(404).json({ message: 'No reader found with that id!' });

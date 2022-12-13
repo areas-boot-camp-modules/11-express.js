@@ -6,6 +6,7 @@ router.get('/', async (req, res) => {
   try {
     const readerData = await Reader.findAll({
       // TODO: Add a comment describing the functionality of this property
+      // This is like a JOIN and gets library card data (in addition to reader data)
       include: [{ model: LibraryCard }],
     });
     res.status(200).json(readerData);
